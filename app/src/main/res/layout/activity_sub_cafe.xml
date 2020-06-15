@@ -55,7 +55,6 @@
         android:layout_width="75dp"
         android:layout_height="40dp"
         android:layout_below="@+id/JungGu"
-        android:layout_toEndOf="@+id/BusanJinGu"
         android:background="@drawable/button_custom"
         android:text="#해운대" />
 
@@ -90,7 +89,8 @@
         android:id="@+id/GiJangGun"
         android:layout_width="75dp"
         android:layout_height="40dp"
-        android:layout_below="@+id/BusanJinGu"
+        android:layout_below="@+id/JungGu"
+        android:layout_toEndOf="@+id/SaSangGu"
         android:background="@drawable/button_custom"
         android:text="#기장군" />
 
@@ -98,8 +98,7 @@
         android:id="@+id/SaHaGu"
         android:layout_width="75dp"
         android:layout_height="40dp"
-        android:layout_below="@+id/BusanJinGu"
-        android:layout_toEndOf="@+id/GiJangGun"
+        android:layout_below="@+id/HaeWoonDae"
         android:background="@drawable/button_custom"
         android:text="#사하구" />
 
@@ -107,7 +106,7 @@
         android:id="@+id/GeumJeongGu"
         android:layout_width="75dp"
         android:layout_height="40dp"
-        android:layout_below="@+id/BusanJinGu"
+        android:layout_below="@+id/HaeWoonDae"
         android:layout_toEndOf="@+id/SaHaGu"
         android:background="@drawable/button_custom"
         android:text="#금정구" />
@@ -116,7 +115,7 @@
         android:id="@+id/GangSeoGu"
         android:layout_width="75dp"
         android:layout_height="40dp"
-        android:layout_below="@+id/BusanJinGu"
+        android:layout_below="@+id/HaeWoonDae"
         android:layout_toEndOf="@+id/GeumJeongGu"
         android:background="@drawable/button_custom"
         android:text="#강서구" />
@@ -125,7 +124,7 @@
         android:id="@+id/YeonJeGu"
         android:layout_width="75dp"
         android:layout_height="40dp"
-        android:layout_below="@+id/BusanJinGu"
+        android:layout_below="@+id/HaeWoonDae"
         android:layout_toEndOf="@+id/GangSeoGu"
         android:background="@drawable/button_custom"
         android:text="#연제구" />
@@ -134,7 +133,8 @@
         android:id="@+id/SuYoungGu"
         android:layout_width="75dp"
         android:layout_height="40dp"
-        android:layout_below="@+id/GiJangGun"
+        android:layout_below="@+id/HaeWoonDae"
+        android:layout_toEndOf="@+id/YeonJeGu"
         android:background="@drawable/button_custom"
         android:text="#수영구" />
 
