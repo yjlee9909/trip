@@ -7,8 +7,6 @@
     android:orientation="vertical"
     tools:context=".home.HomeFragment">
 
-
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -17,26 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-            <!--
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="20dp"
-                android:background="@color/purple">
 
-                <LinearLayout
-                    android:id="@+id/featured"
-                    android:layout_width="170dp"
-                    android:layout_height="280dp"
-                    android:layout_margin="10dp"
-                    android:background="#AAFFF9C4"
-                    android:orientation="vertical">
-
-                </LinearLayout>
-
-            </RelativeLayout>
-            -->
             <RelativeLayout
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
@@ -69,13 +48,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:background="@color/quantum_grey300">
-                <!--
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="70dp"
-                    android:layout_margin="10dp"
-                    android:src="@color/quantum_grey300" />
-                -->
+
                 <ImageView
                     android:id="@+id/weather_image"
                     android:layout_width="60dp"
@@ -305,14 +278,16 @@
                         android:textAllCaps="true"
                         android:textColor="@android:color/black"
                         android:textSize="20sp" />
-                    <!--
+
                     <TextView
+                        android:id="@+id/Textview_more"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentEnd="true"
                         android:layout_centerVertical="true"
-                        android:text="aaaaa" />
-                    -->
+                        android:text="@string/Categories_more"
+                        tools:ignore="RelativeOverlap" />
+
                 </RelativeLayout>
 
                 <androidx.recyclerview.widget.RecyclerView

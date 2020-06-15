@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/JungGu"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_custom"
+        android:text="#중구" />
+
+    <Button
+        android:id="@+id/SeoGu"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_toEndOf="@+id/JungGu"
+        android:background="@drawable/button_custom"
+        android:text="#서구" />
+
+    <Button
+        android:id="@+id/DongGu"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_toEndOf="@+id/SeoGu"
+        android:background="@drawable/button_custom"
+        android:text="#동구" />
+
+    <Button
+        android:id="@+id/NamGu"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_toEndOf="@+id/DongGu"
+        android:background="@drawable/button_custom"
+        android:text="#남구" />
+
+    <Button
+        android:id="@+id/YoungDoGu"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_toEndOf="@+id/NamGu"
+        android:background="@drawable/button_custom"
+        android:text="#영도구" />
+
+    <Button
+        android:id="@+id/BusanJinGu"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_toEndOf="@+id/YoungDoGu"
+        android:background="@drawable/button_custom"
+        android:text="#부산진구" />
+
+    <Button
+        android:id="@+id/HaeWoonDae"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/JungGu"
+        android:layout_toEndOf="@+id/BusanJinGu"
+        android:background="@drawable/button_custom"
+        android:text="#해운대" />
+
+    <Button
+        android:id="@+id/DongRaeGu"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/JungGu"
+        android:layout_toEndOf="@+id/HaeWoonDae"
+        android:background="@drawable/button_custom"
+        android:text="#동래구" />
+
+    <Button
+        android:id="@+id/BukGu"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/JungGu"
+        android:layout_toEndOf="@+id/DongRaeGu"
+        android:background="@drawable/button_custom"
+        android:text="#북구" />
+
+    <Button
+        android:id="@+id/SaSangGu"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/JungGu"
+        android:layout_toEndOf="@+id/BukGu"
+        android:background="@drawable/button_custom"
+        android:text="#사상구" />
+
+    <Button
+        android:id="@+id/GiJangGun"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/BusanJinGu"
+        android:background="@drawable/button_custom"
+        android:text="#기장군" />
+
+    <Button
+        android:id="@+id/SaHaGu"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/BusanJinGu"
+        android:layout_toEndOf="@+id/GiJangGun"
+        android:background="@drawable/button_custom"
+        android:text="#사하구" />
+
+    <Button
+        android:id="@+id/GeumJeongGu"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/BusanJinGu"
+        android:layout_toEndOf="@+id/SaHaGu"
+        android:background="@drawable/button_custom"
+        android:text="#금정구" />
+
+    <Button
+        android:id="@+id/GangSeoGu"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/BusanJinGu"
+        android:layout_toEndOf="@+id/GeumJeongGu"
+        android:background="@drawable/button_custom"
+        android:text="#강서구" />
+
+    <Button
+        android:id="@+id/YeonJeGu"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/BusanJinGu"
+        android:layout_toEndOf="@+id/GangSeoGu"
+        android:background="@drawable/button_custom"
+        android:text="#연제구" />
+
+    <Button
+        android:id="@+id/SuYoungGu"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/GiJangGun"
+        android:background="@drawable/button_custom"
+        android:text="#수영구" />
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/SuYoungGu" />
+
+</RelativeLayout>

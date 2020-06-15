@@ -37,6 +37,7 @@ import com.example.busanapp.HelperClasses.Home.FeaturedAdapter;
 import com.example.busanapp.HelperClasses.Home.FeaturedHelperClass;
 import com.example.busanapp.HelperClasses.Home.MostViewedAdapter;
 import com.example.busanapp.HelperClasses.Home.MostViewedHelperClass;
+import com.example.busanapp.HelperClasses.cafe.SubCafeActivity;
 import com.example.busanapp.R;
 import com.squareup.picasso.Picasso;
 
@@ -126,7 +127,6 @@ public class HomeFragment extends Fragment {
         categoriesRecycler = view.findViewById(R.id.categories_recycler);
         categoriesRecycler();
 
-
         featuredRecycler.setHasFixedSize(true);
         featuredRecycler.setLayoutManager(new LinearLayoutManager(getActivity(), LinearLayoutManager.HORIZONTAL, false));
 
@@ -145,6 +145,12 @@ public class HomeFragment extends Fragment {
 
         RecyclerView.Adapter adapter = new FeaturedAdapter(featuredLocations);
         featuredRecycler.setAdapter(adapter);
+
+        TextView cafe_content = view.findViewById(R.id.Textview_more);
+        cafe_content.setOnClickListener(v -> {
+            Intent intent = new Intent(getActivity(), SubCafeActivity.class);
+            startActivity(intent);
+        });
 
         return view;
     }

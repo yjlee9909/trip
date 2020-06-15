@@ -99,6 +99,7 @@ public class LoadingActivity extends AppCompatActivity implements NavigationView
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new Course_all_Fragment()).commit();
                 break;
+
             case R.id.nav_cafe:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new Course_food_cafe_Fragment()).commit();
@@ -107,7 +108,7 @@ public class LoadingActivity extends AppCompatActivity implements NavigationView
             case R.id.nav_mytrip:
                 break;
 
-            case R.id.nav_chatting :
+            case R.id.nav_chatting:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new ListFragment()).commit();
                 break;
