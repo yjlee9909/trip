@@ -14,12 +14,12 @@
 
         <ImageView
             android:id="@+id/categories_image"
-            android:layout_width="150dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:contentDescription="@string/test"
             android:scaleType="centerCrop"
             android:src="@android:color/darker_gray" />
-
+        <!--
         <TextView
             android:id="@+id/categories_title"
             android:layout_width="wrap_content"
@@ -31,7 +31,7 @@
             android:text="@android:string/untitled"
             android:textColor="@android:color/black"
             android:textSize="20sp" />
-
+        -->
     </RelativeLayout>
 
 </androidx.cardview.widget.CardView>
