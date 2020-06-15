@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+    </group>
+
+    <item android:title="@string/menu_checklist">
+        <menu>
+            <item
+                android:id="@+id/nav_checklist"
+                android:icon="@drawable/ic_check_black_24dp"
+                android:title="@string/menu_checklist" />
+        </menu>
+    </item>
+
+    <item android:title="동행인 구하기">
+        <menu>
+            <item
+                android:id="@+id/nav_chatting"
+                android:icon="@drawable/ic_chat_black_24dp"
+                android:title="동행인 구하기 채팅"/>
+
+        </menu>
+
+    </item>
+
+    <item android:title="@string/menu_mytrip">
+        <menu>
+            <item
+                android:id="@+id/nav_mytrip"
+                android:icon="@drawable/ic_mode_edit_black_24dp"
+                android:title="@string/menu_mytrip" />
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_calendar">
+        <menu>
+            <item
+                android:id="@+id/nav_calendar"
+                android:icon="@drawable/ic_calendar_black"
+                android:title="@string/menu_calendar" />
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_map">
+        <menu>
+            <item
+                android:id="@+id/nav_culture"
+                android:checkable="true"
+                android:icon="@drawable/ic_map"
+                android:title="@string/menu_culture" />
+            <item
+                android:id="@+id/nav_eat"
+                android:checkable="true"
+                android:icon="@drawable/ic_map"
+                android:title="@string/menu_restaurant" />
+            <item
+                android:id="@+id/nav_publicTrans"
+                android:checkable="true"
+                android:icon="@drawable/ic_map"
+                android:title="@string/menu_publicTraffic" />
+            <item
+                android:id="@+id/nav_medical"
+                android:checkable="true"
+                android:icon="@drawable/ic_map"
+                android:title="@string/menu_hospital" />
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_course">
+        <menu>
+            <item
+                android:id="@+id/nav_alltrip"
+                android:icon="@drawable/ic_edit_location"
+                android:title="추천코스 보기" />
+
+            <item
+                android:id="@+id/nav_cafe"
+                android:icon="@drawable/ic_edit_location"
+                android:title="추천 먹거리/카페" />
+       </menu>
+    </item>
+</menu>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".calendar.MemoActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/memo_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#92A8D1"
+        app:titleTextColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/Title_Edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints="@string/prompt_title"
+        android:backgroundTint="@android:color/darker_gray"
+        android:fontFamily="@font/custom_font"
+        android:hint="@string/prompt_title"
+        android:inputType="textPersonName"
+        android:textCursorDrawable="@color/MainColor" />
+
+    <ScrollView
+        android:id="@+id/EditScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/Content_Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:autofillHints="@string/prompt_content"
+            android:backgroundTint="@android:color/transparent"
+            android:fontFamily="@font/abfont"
+            android:gravity="start"
+            android:hint="@string/prompt_content"
+            android:inputType="textMultiLine"
+            android:textCursorDrawable="@color/MainColor" />
+
+    </ScrollView>
+
+</LinearLayout>

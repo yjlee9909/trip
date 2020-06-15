@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "742252330834",
+    "firebase_url": "https://busan-5d3e8.firebaseio.com",
+    "project_id": "busan-5d3e8",
+    "storage_bucket": "busan-5d3e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742252330834:android:e4a754ec81c04ce1f3048b",
+        "android_client_info": {
+          "package_name": "com.example.busanapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "742252330834-p7vjuqf9ed7af59jglm25usuuep6e2av.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCk7j_XTSwgeL2Bb9BEGjTRvuyKTvMjVPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "742252330834-p7vjuqf9ed7af59jglm25usuuep6e2av.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
