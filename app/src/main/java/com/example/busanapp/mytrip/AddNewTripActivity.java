@@ -108,8 +108,8 @@ public class AddNewTripActivity extends AppCompatActivity
         save.setOnClickListener(this);
 //      trip_location.setOnClickListener(this);     // error
 
-        Objects.requireNonNull(getSupportActionBar()).setHomeButtonEnabled(true);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        //Objects.requireNonNull(getSupportActionBar()).setHomeButtonEnabled(true);
+        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
     }
 

@@ -22,6 +22,7 @@
             android:layout_height="50dp"/>
 
         <Spinner
+            android:backgroundTint="#BDBCBC"
             android:id="@+id/spinner_location"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
