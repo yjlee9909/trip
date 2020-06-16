@@ -34,7 +34,7 @@ public class CategoriesAdapter extends RecyclerView.Adapter<CategoriesAdapter.Ad
 
 //      holder.imageView.setImageResource(helperClass.getImage());
         Glide.with(holder.itemView.getContext()).load(helperClass.getUrl()).into(holder.imageView);
-        holder.textView.setText(helperClass.getTitle());
+//      holder.textView.setText(helperClass.getTitle());
 //      holder.relativeLayout.setBackground(Drawable.createFromPath(helperClass.getGradient()));
     }
 
@@ -46,14 +46,14 @@ public class CategoriesAdapter extends RecyclerView.Adapter<CategoriesAdapter.Ad
     static class AdapterAllCategoriesViewHolder extends RecyclerView.ViewHolder {
 //      RelativeLayout relativeLayout;
         ImageView imageView;
-        TextView textView;
+//      TextView textView;
 
         AdapterAllCategoriesViewHolder(@NonNull View itemView) {
             super(itemView);
 
 //          relativeLayout = itemView.findViewById(R.id.background_gradient);
             imageView = itemView.findViewById(R.id.categories_image);
-            textView = itemView.findViewById(R.id.categories_title);
+//          textView = itemView.findViewById(R.id.categories_title);
         }
     }
 }
