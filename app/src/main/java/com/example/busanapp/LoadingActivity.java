@@ -13,6 +13,7 @@ import android.view.MenuItem;
 
 import com.example.busanapp.Chatting.ListFragment;
 import com.example.busanapp.calendar.CalendarFragment;
+import com.example.busanapp.mytrip.MyTripFragment;
 import com.example.busanapp.ui.home.ChecklistFragment;
 import com.example.busanapp.ui.home.Course_all_Fragment;
 import com.example.busanapp.ui.home.Course_food_cafe_Fragment;
@@ -106,6 +107,8 @@ public class LoadingActivity extends AppCompatActivity implements NavigationView
                 break;
 
             case R.id.nav_mytrip:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                        new MyTripFragment()).commit();
                 break;
 
             case R.id.nav_chatting:

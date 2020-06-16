@@ -14,6 +14,7 @@
         <menu>
             <item
                 android:id="@+id/nav_checklist"
+                android:checkable="true"
                 android:icon="@drawable/ic_check_black_24dp"
                 android:title="@string/menu_checklist" />
         </menu>
@@ -23,6 +24,7 @@
         <menu>
             <item
                 android:id="@+id/nav_chatting"
+                android:checkable="true"
                 android:icon="@drawable/ic_chat_black_24dp"
                 android:title="동행인 구하기 채팅"/>
 
@@ -34,6 +36,7 @@
         <menu>
             <item
                 android:id="@+id/nav_mytrip"
+                android:checkable="true"
                 android:icon="@drawable/ic_mode_edit_black_24dp"
                 android:title="@string/menu_mytrip" />
         </menu>
@@ -77,11 +80,13 @@
         <menu>
             <item
                 android:id="@+id/nav_alltrip"
+                android:checkable="true"
                 android:icon="@drawable/ic_edit_location"
                 android:title="추천코스 보기" />
 
             <item
                 android:id="@+id/nav_cafe"
+                android:checkable="true"
                 android:icon="@drawable/ic_edit_location"
                 android:title="추천 먹거리/카페" />
        </menu>
