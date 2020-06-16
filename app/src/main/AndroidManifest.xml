@@ -27,9 +27,10 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity android:name=".mytrip.PlaceListThird" />
+        <activity android:name=".mytrip.MyTripAddHomeActivity" />
         <activity android:name=".mytrip.PlaceListSecond" />
         <activity android:name=".mytrip.PlaceList" />
-        <activity android:name=".mytrip.AddThirdTripActivity"></activity>
+        <activity android:name=".mytrip.AddThirdTripActivity" />
         <activity android:name=".mytrip.AddSecondTripActivity" />
         <activity android:name=".mytrip.AddFirstTripActivity" />
         <activity android:name=".mytrip.AddNewTripActivity" /> <!-- <activity android:name=".home.Course_two_three_trip"></activity> -->

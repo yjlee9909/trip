@@ -119,10 +119,10 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:text="선택"
-                android:textColor="#ffffff"
+                android:textColor="#000000"
                 android:onClick="showDatePickerDialog"
                 android:id="@+id/btn_place"
-                android:background="@color/colorPrimary"/>
+                android:background="@drawable/round_border"/>
 
         </LinearLayout>
 
@@ -132,9 +132,9 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_marginTop="10dp"
-            android:background="@color/colorPrimary"
+            android:background="@drawable/round_border"
             android:text="@string/prompt_add_trip"
-            android:textColor="@android:color/white" />
+            android:textColor="#020202" />
 
     </LinearLayout>
 
